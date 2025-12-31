@@ -367,3 +367,21 @@ textarea:focus {
     flex-direction: column;
   }
 }
+
+/* Bande d'images sous les titres de section (Projets + Compétences) */
+.section-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.section-logos img {
+  height: 40px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 4px 8px;
+  border: 1px solid #e2e2e2;
+}
