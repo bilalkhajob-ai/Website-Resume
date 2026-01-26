@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Bilal Khafifi Azzaoui | Data Analyst</title>
+    <link rel="stylesheet" href="pearl-style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">Bilal</div>
+            <div class="nav-links">
+                <a href="#experience">Expérience</a>
+                <a href="#projets">Projets</a>
+                <a href="#competences">Compétences</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-tag">Data Analyst • Python • R • SQL</p>
+                <h1 class="hero-title">Transformons vos données en insights précieux.</h1>
+                <p class="hero-description">
+                    Étudiant en BUT Science des Données à Paris. Passionné par l'analyse et la visualisation de données, 
+                    je transforme des ensembles complexes en décisions stratégiques et insights actionnables.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="CV_KHAFIFIAZZAOUI_Bilal.pdf" class="btn btn-secondary" download>Télécharger CV</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/profil.png" alt="Photo de profil">
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Parcours</p>
+                <h2>Expérience professionnelle</h2>
+            </div>
+
+            <div class="experience-list">
+                <!-- Experience 1 -->
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <div class="experience-title-with-logo">
+                                <img src="images/gr.png" alt="Groupe Rocher" class="company-logo">
+                                <div>
+                                    <h3>Assistant Market Intelligence</h3>
+                                    <p class="company">Groupe Rocher - Issy-les-Moulineaux</p>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="date">Avril - Juillet 2025</span>
+                    </div>
+                    <div class="experience-content">
+                        <p>Stage au sein du département marketing du leader mondial des cosmétiques naturels.</p>
+                        <ul>
+                            <li>Analyse de données marché pour soutenir les équipes marketing</li>
+                            <li>Veille concurrentielle et synthèses sur les tendances du secteur cosmétique</li>
+                            <li>Traitement et structuration de données avec Excel (tableaux croisés, formules avancées)</li>
+                            <li>Élaboration de rapports et présentations PowerPoint</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Formation -->
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <h3>BUT Science des Données</h3>
+                            <p class="company">IUT Paris - Rives de Seine | Université Paris Cité</p>
+                        </div>
+                        <span class="date">2023 - 2026</span>
+                    </div>
+                    <div class="experience-content">
+                        <p>Formation spécialisée en analyse et science des données avec approche pratique et projets réels.</p>
+                        <ul>
+                            <li>Modules : Programmation Python/R, Bases de données SQL, Statistiques, Machine Learning</li>
+                            <li>Projets intégrés en équipe avec données réelles (portefeuilles bancaires, datasets publics)</li>
+                            <li>Développement de dashboards interactifs et outils d'aide à la décision</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Réalisations</p>
+                <h2>Projets qui donnent vie aux données</h2>
+            </div>
+
+            <div class="projects-carousel">
+                <!-- Project 1 - Crédit Auto -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/streamlit.png" alt="Dashboard Risque Bancaire">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Python • Streamlit • Data Quality</span>
+                        <h3>Analyse de risque : Portefeuille crédits auto</h3>
+                        <p><strong>102 443 demandes analysées</strong> — Dashboard interactif pour piloter l'activité commerciale et la politique de risque. Nettoyage rigoureux, KPIs (taux d'octroi 89%, endettement 30.9%), visualisations géographiques et temporelles.</p>
+                        <a href="RapportRisqueBancaire_KHAFIFIAZZAOUI_SUBRAMANIAM_UZAN.pdf" class="project-link" target="_blank">Voir le rapport →</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 - Pokémon -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/pokemon.png" alt="Analyse Pokémon">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Data Science • R • ggplot2</span>
+                        <h3>Analyse complète de 800+ Pokémon</h3>
+                        <p>Exploration statistique approfondie des types, statistiques de combat (HP, attaque, défense) et comparaison légendaires vs non-légendaires. Visualisations interactives avec R, dplyr et ggplot2.</p>
+                        <a href="rapport.pdf" class="project-link" target="_blank">Voir le projet →</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 - German Credit -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/python.png" alt="German Credit Data">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Python • Pandas • Seaborn</span>
+                        <h3>Analyse German Credit Data</h3>
+                        <p>Analyse exploratoire complète pour identifier les facteurs influençant la classification des clients. Préparation, segmentation et visualisations statistiques (corrélations, distributions) avec Matplotlib et Seaborn.</p>
+                        <a href="Projet_prog_python_25.html" class="project-link">Voir le projet →</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 - Migration SQL vers NoSQL -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/mongodb.png" alt="Migration SQL NoSQL">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">SQL • MongoDB • Python</span>
+                        <h3>Migration SQLite vers MongoDB</h3>
+                        <p>Migration automatisée de la base ClassicModels (SQLite) vers MongoDB. Repenser la modélisation (3 collections : customers, orders, employees) et réécriture de 10 requêtes SQL en aggregation pipelines MongoDB.</p>
+                        <a href="fichier_migration_0501.html" class="project-link" target="_blank">Voir la migration →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Expertise</p>
+                <h2>Compétences techniques</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img src="images/python.png" alt="Python" class="skill-icon">
+                    <h3>Python</h3>
+                    <p>Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/rstudio.png" alt="R Studio" class="skill-icon">
+                    <h3>R & RStudio</h3>
+                    <p>ggplot2, dplyr, tidyr, analyse statistique</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/sql.png" alt="SQL" class="skill-icon">
+                    <h3>SQL</h3>
+                    <p>SQLite, MySQL, requêtes complexes, optimisation</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/mongodb.png" alt="MongoDB" class="skill-icon">
+                    <h3>MongoDB</h3>
+                    <p>NoSQL, aggregation pipelines, pymongo</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/excel.png" alt="Excel" class="skill-icon">
+                    <h3>Excel</h3>
+                    <p>Tableaux croisés, macros VBA, formules avancées</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/streamlit.png" alt="Streamlit" class="skill-icon">
+                    <h3>Streamlit</h3>
+                    <p>Applications web interactives, dashboards Python</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p class="section-tag">Discutons</p>
+                    <h2>Prêt à collaborer ?</h2>
+                    <p>Recherche active d'un stage alterné de 4 à 6 mois dans le domaine de la data (janvier à août 2026). Ouvert aux opportunités freelance et CDI post-diplôme.</p>
+                    <div class="contact-links">
+                        <a href="https://linkedin.com/in/votre-profil" target="_blank" class="btn btn-outline">LinkedIn</a>
+                        <a href="mailto:bilalkhajob@gmail.com" class="btn btn-outline">Email</a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Bilal Khafifi Azzaoui. Étudiant BUT Science des Données | Paris</p>
+        </div>
+    </footer>
+
+    <script src="pearl-script.js"></script>
+</body>
+</html>
